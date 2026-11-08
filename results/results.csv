@@ -1,0 +1,28 @@
+group,algorithm,size,case,average_ms,comparisons
+dp,LCS,100,random,1.515412,
+dp,Edit Distance,100,random,1.145014,
+dp,LCS,500,random,1.052120,
+dp,Edit Distance,500,random,1.160802,
+dp,LCS,1000,random,1.409325,
+dp,Edit Distance,1000,random,5.439067,
+matching,Naive,10000,present,0.430761,13353
+matching,KMP,10000,present,0.347506,12448
+matching,Rabin-Karp,10000,present,0.524230,16
+matching,Naive,10000,absent,0.313711,13290
+matching,KMP,10000,absent,0.254139,12537
+matching,Rabin-Karp,10000,absent,0.222714,0
+matching,Naive,50000,present,0.576242,66500
+matching,KMP,50000,present,0.497464,62355
+matching,Rabin-Karp,50000,present,0.819761,16
+matching,Naive,50000,absent,0.303988,66656
+matching,KMP,50000,absent,0.203708,62411
+matching,Rabin-Karp,50000,absent,0.408548,0
+matching,Naive,100000,present,0.589025,133408
+matching,KMP,100000,present,0.538351,125026
+matching,Rabin-Karp,100000,present,0.822887,16
+matching,Naive,100000,absent,0.560488,133285
+matching,KMP,100000,absent,0.418062,125002
+matching,Rabin-Karp,100000,absent,0.750388,0
+kasai,Kasai,1000,random,0.214504,
+kasai,Kasai,5000,random,0.253378,
+kasai,Kasai,10000,random,0.402547,

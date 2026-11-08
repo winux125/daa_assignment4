@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="18">Dynamic programming</text>
+<line x1="80" y1="350.0" x2="690" y2="350.0" stroke="#ddd"/><text x="70" y="354.0" text-anchor="end" font-family="sans-serif" font-size="12">0.00</text>
+<line x1="80" y1="276.25" x2="690" y2="276.25" stroke="#ddd"/><text x="70" y="280.25" text-anchor="end" font-family="sans-serif" font-size="12">1.56</text>
+<line x1="80" y1="202.5" x2="690" y2="202.5" stroke="#ddd"/><text x="70" y="206.5" text-anchor="end" font-family="sans-serif" font-size="12">3.13</text>
+<line x1="80" y1="128.75" x2="690" y2="128.75" stroke="#ddd"/><text x="70" y="132.75" text-anchor="end" font-family="sans-serif" font-size="12">4.69</text>
+<line x1="80" y1="55.0" x2="690" y2="55.0" stroke="#ddd"/><text x="70" y="59.0" text-anchor="end" font-family="sans-serif" font-size="12">6.25</text>
+<text x="80.0" y="370" text-anchor="middle" font-family="sans-serif" font-size="12">100</text>
+<text x="351.1111111111111" y="370" text-anchor="middle" font-family="sans-serif" font-size="12">500</text>
+<text x="690.0" y="370" text-anchor="middle" font-family="sans-serif" font-size="12">1000</text>
+<line x1="80" y1="55" x2="80" y2="350" stroke="black"/><line x1="80" y1="350" x2="690" y2="350" stroke="black"/>
+<text x="360.0" y="410" text-anchor="middle" font-family="sans-serif" font-size="13">Input length</text><text x="18" y="210.0" transform="rotate(-90 18 210.0)" text-anchor="middle" font-family="sans-serif" font-size="13">Average time (ms)</text>
+<polyline points="80.0,278.5288962722595 351.1111111111111,300.37905358144826 690.0,283.53225838181436" fill="none" stroke="#2864a0" stroke-width="2"/>
+<circle cx="80.0" cy="278.5288962722595" r="4" fill="#2864a0"/>
+<circle cx="351.1111111111111" cy="300.37905358144826" r="4" fill="#2864a0"/>
+<circle cx="690.0" cy="283.53225838181436" r="4" fill="#2864a0"/>
+<text x="80" y="382" font-family="sans-serif" font-size="12" fill="#2864a0">LCS</text>
+<polyline points="80.0,295.9979105591647 351.1111111111111,295.25330395340103 690.0,93.47826086956519" fill="none" stroke="#d26232" stroke-width="2"/>
+<circle cx="80.0" cy="295.9979105591647" r="4" fill="#d26232"/>
+<circle cx="351.1111111111111" cy="295.25330395340103" r="4" fill="#d26232"/>
+<circle cx="690.0" cy="93.47826086956519" r="4" fill="#d26232"/>
+<text x="230" y="382" font-family="sans-serif" font-size="12" fill="#d26232">Edit Distance</text>
+</svg>

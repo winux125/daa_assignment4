@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="18">String matching: absent pattern</text>
+<line x1="80" y1="350.0" x2="690" y2="350.0" stroke="#ddd"/><text x="70" y="354.0" text-anchor="end" font-family="sans-serif" font-size="12">0.00</text>
+<line x1="80" y1="276.25" x2="690" y2="276.25" stroke="#ddd"/><text x="70" y="280.25" text-anchor="end" font-family="sans-serif" font-size="12">0.22</text>
+<line x1="80" y1="202.5" x2="690" y2="202.5" stroke="#ddd"/><text x="70" y="206.5" text-anchor="end" font-family="sans-serif" font-size="12">0.43</text>
+<line x1="80" y1="128.75" x2="690" y2="128.75" stroke="#ddd"/><text x="70" y="132.75" text-anchor="end" font-family="sans-serif" font-size="12">0.65</text>
+<line x1="80" y1="55.0" x2="690" y2="55.0" stroke="#ddd"/><text x="70" y="59.0" text-anchor="end" font-family="sans-serif" font-size="12">0.86</text>
+<text x="80.0" y="370" text-anchor="middle" font-family="sans-serif" font-size="12">10000</text>
+<text x="351.1111111111111" y="370" text-anchor="middle" font-family="sans-serif" font-size="12">50000</text>
+<text x="690.0" y="370" text-anchor="middle" font-family="sans-serif" font-size="12">100000</text>
+<line x1="80" y1="55" x2="80" y2="350" stroke="black"/><line x1="80" y1="350" x2="690" y2="350" stroke="black"/>
+<text x="360.0" y="410" text-anchor="middle" font-family="sans-serif" font-size="13">Input length</text><text x="18" y="210.0" transform="rotate(-90 18 210.0)" text-anchor="middle" font-family="sans-serif" font-size="13">Average time (ms)</text>
+<polyline points="80.0,242.75722518970474 351.1111111111111,246.0810534886184 690.0,158.39598111678342" fill="none" stroke="#2864a0" stroke-width="2"/>
+<circle cx="80.0" cy="242.75722518970474" r="4" fill="#2864a0"/>
+<circle cx="351.1111111111111" cy="246.0810534886184" r="4" fill="#2864a0"/>
+<circle cx="690.0" cy="158.39598111678342" r="4" fill="#2864a0"/>
+<text x="80" y="382" font-family="sans-serif" font-size="12" fill="#2864a0">Naive</text>
+<polyline points="80.0,263.1220405165467 351.1111111111111,280.36198548646485 690.0,207.08461315433107" fill="none" stroke="#d26232" stroke-width="2"/>
+<circle cx="80.0" cy="263.1220405165467" r="4" fill="#d26232"/>
+<circle cx="351.1111111111111" cy="280.36198548646485" r="4" fill="#d26232"/>
+<circle cx="690.0" cy="207.08461315433107" r="4" fill="#d26232"/>
+<text x="230" y="382" font-family="sans-serif" font-size="12" fill="#d26232">KMP</text>
+<polyline points="80.0,273.864743827599 351.1111111111111,210.33699435723804 690.0,93.47826086956519" fill="none" stroke="#458552" stroke-width="2"/>
+<circle cx="80.0" cy="273.864743827599" r="4" fill="#458552"/>
+<circle cx="351.1111111111111" cy="210.33699435723804" r="4" fill="#458552"/>
+<circle cx="690.0" cy="93.47826086956519" r="4" fill="#458552"/>
+<text x="380" y="382" font-family="sans-serif" font-size="12" fill="#458552">Rabin-Karp</text>
+</svg>
